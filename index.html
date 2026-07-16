@@ -3,12 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#071a36" />
+    <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
-      content="サッカー・フットサル向け戦術ボードアプリ「みんなの作戦ボード」の公式サポートページです。"
+      content="サッカーの「考える」を、もっと楽しく。少年サッカー・ジュニアチーム向け戦術共有アプリ「みんなの作戦ボード」の公式サイトです。"
     />
-    <title>サポート | みんなの作戦ボード</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="みんなの作戦ボード" />
+    <meta property="og:title" content="みんなの作戦ボード" />
+    <meta
+      property="og:description"
+      content="サッカーの「考える」を、もっと楽しく。少年サッカー・ジュニアチーム向け戦術共有アプリ。"
+    />
+    <meta
+      property="og:url"
+      content="https://yysanta.github.io/minnanosakusenboard-support/"
+    />
+    <meta
+      property="og:image"
+      content="https://yysanta.github.io/minnanosakusenboard-support/assets/images/ogp.png"
+    />
+    <meta property="og:image:width" content="1730" />
+    <meta property="og:image:height" content="909" />
+    <meta
+      property="og:image:alt"
+      content="みんなの作戦ボード サッカーの「考える」を、もっと楽しく。"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="みんなの作戦ボード" />
+    <meta
+      name="twitter:description"
+      content="サッカーの「考える」を、もっと楽しく。少年サッカー・ジュニアチーム向け戦術共有アプリ。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://yysanta.github.io/minnanosakusenboard-support/assets/images/ogp.png"
+    />
+    <title>みんなの作戦ボード | 公式サイト</title>
     <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
     <link rel="apple-touch-icon" href="./assets/images/app-icon.png" />
     <link rel="stylesheet" href="./assets/site.css" />
@@ -22,7 +54,7 @@
 
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="./" aria-label="みんなの作戦ボード サポート">
+        <a class="brand" href="./" aria-label="みんなの作戦ボード トップ">
           <img
             class="brand-mark"
             src="./assets/images/app-icon.png"
@@ -32,216 +64,296 @@
           />
           <span>
             <span class="brand-name">みんなの作戦ボード</span>
-            <span class="brand-subtitle">Support</span>
+            <span class="brand-subtitle">Official Site</span>
           </span>
         </a>
-        <nav class="header-nav" aria-label="サポートページ内のナビゲーション">
-          <a class="header-link" href="#contact">お問い合わせ</a>
-          <a class="header-link" href="./privacy/">プライバシーポリシー</a>
+        <nav class="header-nav" aria-label="メインナビゲーション">
+          <a class="header-link" href="#story">開発ストーリー</a>
+          <a class="header-link" href="#features">主な機能</a>
+          <a class="header-link" href="#support">サポート</a>
         </nav>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <div class="app-identity">
+      <section class="landing-hero">
+        <div class="container landing-hero-grid">
+          <div class="landing-hero-copy">
+            <div class="app-label">
               <img
-                class="hero-app-icon"
                 src="./assets/images/app-icon.png"
                 alt="みんなの作戦ボードのアプリアイコン"
-                width="112"
-                height="112"
+                width="92"
+                height="92"
               />
               <div>
-                <p class="eyebrow">OFFICIAL SUPPORT</p>
-                <p class="app-category">サッカー・フットサル戦術ボード</p>
+                <p class="eyebrow">SOCCER TACTICS APP</p>
+                <p>少年サッカー・ジュニアチーム向け</p>
               </div>
             </div>
             <h1>
-              <span class="hero-title-app">みんなの作戦ボード</span><br />
-              <span class="hero-title-support">サポート</span>
+              サッカーの<br />
+              「考える」を、<br />
+              <span>もっと楽しく。</span>
             </h1>
-            <p class="hero-lead">
-              サッカー・フットサルの作戦を、みんなで分かりやすく共有するための戦術ボードアプリです。
-              ご質問、不具合のご報告、機能のご要望はこちらからお寄せください。
+            <p class="landing-lead">
+              選手、コーチ、家族みんなで作戦を見て、動かして、話し合える。
+              サッカー・フットサル戦術共有アプリです。
             </p>
-            <div class="hero-actions">
-              <a
-                class="button button-primary"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdDb0k4PJAORu3d4o4CxCHpVAx6rfV-jXYe_y5rYr1i6vu2IA/viewform?usp=header"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div class="landing-actions">
+              <!-- TODO: App Store公開後、正式なapps.apple.com URLを設定する -->
+              <span
+                class="app-store-button is-disabled"
+                role="link"
+                aria-disabled="true"
+                title="App Store公開後にリンクを設定します"
               >
-                お問い合わせフォーム
-                <span aria-hidden="true">↗</span>
-              </a>
-              <a class="button button-secondary" href="#reporting">
-                不具合報告の書き方
-              </a>
+                <span class="apple-mark" aria-hidden="true"></span>
+                <span>
+                  <small>Download on the</small>
+                  <strong>App Store</strong>
+                </span>
+              </span>
+              <span class="launch-note">App Storeでまもなく公開</span>
             </div>
-            <p class="hero-note">
-              Feedback and support are available through the form.
-            </p>
           </div>
 
-          <div class="app-preview" aria-label="アプリ画面プレビュー">
-            <figure class="screenshot-card screenshot-card-primary">
-              <img
-                src="./assets/images/tactics-board.jpg"
-                alt="作戦ボードで選手を配置しているアプリ画面"
-                width="553"
-                height="1200"
-              />
-              <figcaption>作戦を直感的に共有</figcaption>
-            </figure>
-            <figure class="screenshot-card screenshot-card-secondary">
-              <img
-                src="./assets/images/match-timer.jpg"
-                alt="タイマーとスコアを記録しているアプリ画面"
-                width="553"
-                height="1200"
-              />
-              <figcaption>時間とスコアをその場で記録</figcaption>
-            </figure>
+          <div class="hero-showcase" aria-label="アプリ画面">
+            <div class="hero-glow"></div>
+            <img
+              class="hero-screen hero-screen-back"
+              src="./assets/images/app-store/04.jpg"
+              alt="矢印やフリーハンドで指示を描く画面"
+              width="350"
+              height="760"
+            />
+            <img
+              class="hero-screen hero-screen-front"
+              src="./assets/images/app-store/01.jpg"
+              alt="選手を配置した戦術ボード画面"
+              width="350"
+              height="760"
+            />
           </div>
         </div>
       </section>
 
-      <section class="section" id="contact">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">CONTACT</p>
-            <h2>お問い合わせ</h2>
-            <p>
-              アプリに関するご質問やお困りごとは、Googleフォームからご連絡ください。
-              内容を確認のうえ、原則として5営業日以内を目安に返信します。
-            </p>
+      <section class="section story-section" id="story">
+        <div class="container story-layout">
+          <div class="story-heading">
+            <p class="eyebrow">WHY I MADE IT</p>
+            <h2>もう一度出会った、<br />サッカーの楽しさから。</h2>
           </div>
-
-          <div class="notice">
-            <span class="notice-icon" aria-hidden="true">i</span>
+          <div class="story-copy">
             <p>
-              返信が必要な場合は、フォーム内に連絡可能なメールアドレスをご入力ください。
-              内容によっては回答までお時間をいただく場合や、個別に返信できない場合があります。
+              子どもと家族がサッカーを始めたことをきっかけに、
+              自分ももう一度サッカーの楽しさに触れました。
+            </p>
+            <p>
+              自分自身、小学生時代にサッカーをしていましたが、
+              上手い選手との差を感じて、挫折した経験があります。
+            </p>
+            <p>
+              だからこそ、今の子どもたちには、上手さだけではなく
+              <strong>「考える楽しさ」</strong>をもっと身近に感じてほしい。
+            </p>
+            <p>
+              作戦を一緒に動かし、話し、試してみる。
+              そんな時間を増やしたいという想いから、
+              「みんなの作戦ボード」を開発しました。
             </p>
           </div>
         </div>
       </section>
 
-      <section class="section section-tinted" id="reporting">
+      <section class="section features-section" id="features">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">BUG REPORT</p>
-            <h2>不具合をご報告いただく際に</h2>
-            <p>
-              次の情報があると、状況を確認しやすくなります。分かる範囲でご記載ください。
-            </p>
+          <div class="section-heading centered">
+            <p class="eyebrow">FEATURES</p>
+            <h2>考える、伝える、振り返る。</h2>
+            <p>練習から試合後まで、チームのコミュニケーションをひとつにつなぎます。</p>
           </div>
 
-          <ol class="report-list">
-            <li>
-              <span class="report-number">01</span>
-              <div>
-                <h3>使用端末</h3>
-                <p>例：iPhone 16、iPad Air（第5世代）</p>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-wide">
+              <div class="feature-copy">
+                <span class="feature-number">01</span>
+                <h3>戦術ボード</h3>
+                <p>
+                  選手をドラッグして直感的に配置。
+                  矢印やフリーハンドで、動きや狙いをその場で共有できます。
+                </p>
               </div>
-            </li>
-            <li>
-              <span class="report-number">02</span>
-              <div>
-                <h3>iOSバージョン</h3>
-                <p>「設定」→「一般」→「情報」から確認できます。</p>
+              <div class="feature-images two-screens">
+                <img
+                  src="./assets/images/app-store/01.jpg"
+                  alt="選手を配置した戦術ボード"
+                  width="350"
+                  height="760"
+                />
+                <img
+                  src="./assets/images/app-store/04.jpg"
+                  alt="矢印とフリーハンドを描いた戦術ボード"
+                  width="350"
+                  height="760"
+                />
               </div>
-            </li>
-            <li>
-              <span class="report-number">03</span>
-              <div>
-                <h3>アプリバージョン</h3>
-                <p>アプリ内のサポート画面に表示されるバージョンです。</p>
-              </div>
-            </li>
-            <li>
-              <span class="report-number">04</span>
-              <div>
-                <h3>発生した操作</h3>
-                <p>問題が起きる直前に行った操作を、順番にお知らせください。</p>
-              </div>
-            </li>
-            <li>
-              <span class="report-number">05</span>
-              <div>
-                <h3>発生状況</h3>
-                <p>毎回発生するか、特定のデータや場面だけで発生するかをご記載ください。</p>
-              </div>
-            </li>
-            <li>
-              <span class="report-number">06</span>
-              <div>
-                <h3>スクリーンショットの有無</h3>
-                <p>可能であれば、個人情報が映り込んでいない画像を添付してください。</p>
-              </div>
-            </li>
-          </ol>
+            </article>
 
-          <div class="section-action">
+            <article class="feature-card">
+              <div class="feature-copy">
+                <span class="feature-number">02</span>
+                <h3>QR共有</h3>
+                <p>作成したフォーメーションや作戦を、QRコードで簡単に共有できます。</p>
+              </div>
+              <div class="feature-images">
+                <img
+                  src="./assets/images/app-store/06.jpg"
+                  alt="作戦を共有するQRコード画面"
+                  width="350"
+                  height="760"
+                />
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-copy">
+                <span class="feature-number">03</span>
+                <h3>チーム管理</h3>
+                <p>選手登録やフォーメーション保存で、いつものチームをすぐに再現できます。</p>
+              </div>
+              <div class="feature-images two-screens">
+                <img
+                  src="./assets/images/app-store/02.jpg"
+                  alt="自チームの選手登録画面"
+                  width="350"
+                  height="760"
+                />
+                <img
+                  src="./assets/images/app-store/05.jpg"
+                  alt="ベンチ選手を表示した戦術ボード"
+                  width="350"
+                  height="760"
+                />
+              </div>
+            </article>
+
+            <article class="feature-card feature-card-wide premium-feature">
+              <div class="feature-copy">
+                <span class="premium-pill">Premium</span>
+                <h3>試合記録とPDF出力</h3>
+                <p>
+                  タイマー、得点、交代、出場時間などを記録。
+                  試合詳細をPDFにまとめ、試合後の振り返りや共有に活用できます。
+                </p>
+              </div>
+              <div class="feature-images two-screens">
+                <img
+                  src="./assets/images/app-store/07.jpg"
+                  alt="Premiumの試合タイマーモード"
+                  width="350"
+                  height="760"
+                />
+                <img
+                  src="./assets/images/app-store/08.jpg"
+                  alt="Premiumの試合詳細画面"
+                  width="350"
+                  height="760"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section premium-section" id="premium">
+        <div class="container premium-layout">
+          <div>
+            <p class="eyebrow">PREMIUM</p>
+            <h2>チームの記録を、<br />次の試合につなげる。</h2>
+            <p class="premium-price"><strong>980円</strong><span>買い切り</span></p>
+            <p class="premium-lead">
+              サブスクリプションではありません。一度購入すれば、Premium機能を継続して利用できます。
+            </p>
+          </div>
+          <ul class="premium-list">
+            <li><span>01</span><strong>タイマーモード</strong></li>
+            <li><span>02</span><strong>試合記録</strong></li>
+            <li><span>03</span><strong>PDF出力</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section audience-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">FOR EVERYONE</p>
+            <h2>サッカーを一緒に考える、すべての人へ。</h2>
+          </div>
+          <ul class="audience-list">
+            <li>少年サッカー監督</li>
+            <li>コーチ</li>
+            <li>ジュニアチーム指導者</li>
+            <li>サッカーを学びたい選手</li>
+            <li>親子でサッカーを楽しみたい方</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section developer-section" id="developer">
+        <div class="container developer-card">
+          <div class="developer-monogram" aria-hidden="true">さ</div>
+          <div class="developer-copy">
+            <p class="eyebrow">DEVELOPER</p>
+            <h2>さんたろう</h2>
+            <p class="developer-tagline">「あったらいいなを作る」</p>
+            <p>
+              個人開発として、使う人の声を聞きながら少しずつ育てています。
+              今後のアップデートや開発過程も発信していく予定です。
+            </p>
+            <!-- TODO: 正式な開発者Xアカウントが異なる場合は差し替える -->
             <a
-              class="button button-primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdDb0k4PJAORu3d4o4CxCHpVAx6rfV-jXYe_y5rYr1i6vu2IA/viewform?usp=header"
+              class="text-link"
+              href="https://x.com/Yysanta"
               target="_blank"
               rel="noopener noreferrer"
             >
-              不具合を報告する
+              Xで開発の様子を見る
               <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container two-column">
-          <article class="info-card">
-            <p class="eyebrow">FEATURE REQUEST</p>
-            <h2>機能のご要望</h2>
-            <p>
-              「こんな機能がほしい」「この操作をもっと簡単にしてほしい」といったご要望も、
-              お問い合わせフォームからお寄せください。
-            </p>
-            <p>
-              すべてのご要望への対応をお約束するものではありませんが、
-              今後の改善を検討する際の参考にします。
-            </p>
-          </article>
-
-          <article class="info-card">
-            <p class="eyebrow">RESPONSE TIME</p>
-            <h2>返信の目安</h2>
-            <p>
-              原則として5営業日以内を目安に返信します。土日祝日、年末年始、
-              内容の調査が必要な場合は、通常よりお時間をいただくことがあります。
-            </p>
-            <p class="muted">
-              We generally respond within five business days.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section policy-section">
-        <div class="container policy-row">
+      <section class="section support-section" id="support">
+        <div class="container support-layout">
           <div>
-            <p class="eyebrow">PRIVACY</p>
-            <h2>プライバシーポリシー</h2>
-            <p>アプリにおける情報の取り扱いについて、以下のページでご案内しています。</p>
+            <p class="eyebrow">SUPPORT</p>
+            <h2>お問い合わせ・サポート</h2>
+            <p>
+              ご質問、不具合のご報告、機能のご要望はお問い合わせフォームからお寄せください。
+              原則として5営業日以内を目安に返信します。
+            </p>
+            <a
+              class="button button-primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdDb0k4PJAORu3d4o4CxCHpVAx6rfV-jXYe_y5rYr1i6vu2IA/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              お問い合わせフォーム
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
-          <a
-            class="button button-secondary button-light"
-            href="./privacy/"
-          >
-            プライバシーポリシーを見る
-            <span aria-hidden="true">↗</span>
-          </a>
+          <div class="support-note">
+            <h3>不具合報告にあると助かる情報</h3>
+            <ul>
+              <li>使用端末</li>
+              <li>iOSバージョン</li>
+              <li>アプリバージョン</li>
+              <li>発生した操作と状況</li>
+              <li>スクリーンショットの有無</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
@@ -250,14 +362,12 @@
       <div class="container footer-inner">
         <div>
           <p class="footer-brand">みんなの作戦ボード</p>
-          <p>運営者：みんなの作戦ボード運営</p>
+          <p>運営者：さんたろう</p>
         </div>
         <div class="footer-meta">
-          <a
-            href="./privacy/"
-          >
-            プライバシーポリシー
-          </a>
+          <a href="#story">開発ストーリー</a>
+          <a href="#support">サポート</a>
+          <a href="./privacy/">プライバシーポリシー</a>
           <p lang="en">© 2026 Minnano Sakusen Board. All rights reserved.</p>
         </div>
       </div>
