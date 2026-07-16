@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0c6b50" />
+    <meta name="theme-color" content="#071a36" />
     <meta
       name="description"
       content="サッカー・フットサル向け戦術ボードアプリ「みんなの作戦ボード」の公式サポートページです。"
     />
     <title>サポート | みんなの作戦ボード</title>
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/images/app-icon.png" />
     <link rel="stylesheet" href="./assets/site.css" />
     <link
       rel="canonical"
@@ -21,10 +23,13 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="./" aria-label="みんなの作戦ボード サポート">
-          <span class="brand-mark" aria-hidden="true">
-            <span class="brand-mark-line"></span>
-            <span class="brand-mark-ball"></span>
-          </span>
+          <img
+            class="brand-mark"
+            src="./assets/images/app-icon.png"
+            alt=""
+            width="44"
+            height="44"
+          />
           <span>
             <span class="brand-name">みんなの作戦ボード</span>
             <span class="brand-subtitle">Support</span>
@@ -38,8 +43,23 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">OFFICIAL SUPPORT</p>
-            <h1>みんなの作戦ボード<br /><span>サポート</span></h1>
+            <div class="app-identity">
+              <img
+                class="hero-app-icon"
+                src="./assets/images/app-icon.png"
+                alt="みんなの作戦ボードのアプリアイコン"
+                width="112"
+                height="112"
+              />
+              <div>
+                <p class="eyebrow">OFFICIAL SUPPORT</p>
+                <p class="app-category">サッカー・フットサル戦術ボード</p>
+              </div>
+            </div>
+            <h1>
+              <span class="hero-title-app">みんなの作戦ボード</span><br />
+              <span class="hero-title-support">サポート</span>
+            </h1>
             <p class="hero-lead">
               サッカー・フットサルの作戦を、みんなで分かりやすく共有するための戦術ボードアプリです。
               ご質問、不具合のご報告、機能のご要望はこちらからお寄せください。
@@ -63,20 +83,25 @@
             </p>
           </div>
 
-          <div class="pitch-card" aria-hidden="true">
-            <div class="pitch">
-              <span class="pitch-halfway"></span>
-              <span class="pitch-circle"></span>
-              <span class="pitch-box pitch-box-top"></span>
-              <span class="pitch-box pitch-box-bottom"></span>
-              <span class="marker marker-a"></span>
-              <span class="marker marker-b"></span>
-              <span class="marker marker-c"></span>
-              <span class="marker marker-d"></span>
-              <span class="marker marker-e"></span>
-              <span class="ball"></span>
-              <span class="route"></span>
-            </div>
+          <div class="app-preview" aria-label="アプリ画面プレビュー">
+            <figure class="screenshot-card screenshot-card-primary">
+              <img
+                src="./assets/images/tactics-board.jpg"
+                alt="作戦ボードで選手を配置しているアプリ画面"
+                width="553"
+                height="1200"
+              />
+              <figcaption>作戦を直感的に共有</figcaption>
+            </figure>
+            <figure class="screenshot-card screenshot-card-secondary">
+              <img
+                src="./assets/images/match-timer.jpg"
+                alt="タイマーとスコアを記録しているアプリ画面"
+                width="553"
+                height="1200"
+              />
+              <figcaption>時間とスコアをその場で記録</figcaption>
+            </figure>
           </div>
         </div>
       </section>
