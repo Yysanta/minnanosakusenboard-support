@@ -806,6 +806,99 @@ h3 {
   color: var(--ink-soft);
 }
 
+.support-note a {
+  color: var(--blue-dark);
+  font-weight: 750;
+}
+
+/* App support pages */
+.app-support-hero {
+  padding: 68px 0;
+  color: #ffffff;
+  background: linear-gradient(145deg, #0647d8 0%, #078ee8 56%, #12c6d5 100%);
+}
+
+.app-support-hero .eyebrow {
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.app-support-hero h1 {
+  margin-bottom: 12px;
+  font-size: clamp(40px, 6vw, 68px);
+}
+
+.app-support-hero p:last-child {
+  max-width: 690px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 18px;
+}
+
+.app-support-section {
+  padding: 72px 0 96px;
+  background: var(--paper);
+}
+
+.app-support-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  align-items: start;
+  gap: 48px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 16px;
+}
+
+.faq-item,
+.app-support-aside {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-medium);
+  background: var(--surface);
+  box-shadow: 0 14px 36px rgba(7, 26, 54, 0.07);
+}
+
+.faq-item {
+  padding: 28px 30px;
+}
+
+.faq-item h2 {
+  margin-bottom: 10px;
+  color: #0c4f9f;
+  font-size: 20px;
+}
+
+.faq-item p {
+  color: var(--ink-soft);
+}
+
+.faq-item a,
+.app-support-aside a:not(.button) {
+  color: #0b62bd;
+  font-weight: 700;
+}
+
+.app-support-aside {
+  position: sticky;
+  top: 98px;
+  padding: 28px;
+}
+
+.app-support-aside h2 {
+  font-size: 21px;
+}
+
+.app-support-aside p {
+  margin-bottom: 20px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.app-support-aside .button {
+  width: 100%;
+}
+
 .button {
   display: inline-flex;
   min-height: 52px;
@@ -974,6 +1067,12 @@ h3 {
   font-size: 22px;
 }
 
+.privacy-article section[lang] h3 {
+  margin-top: 30px;
+  color: var(--ink);
+  font-size: 18px;
+}
+
 .privacy-article p,
 .privacy-article li {
   color: var(--ink-soft);
@@ -989,6 +1088,10 @@ h3 {
   padding-left: 1.4em;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 7px 28px;
+}
+
+.privacy-article section[lang] ul {
+  grid-template-columns: 1fr;
 }
 
 .privacy-article a {
@@ -1363,6 +1466,32 @@ h3 {
 
   .privacy-layout {
     gap: 24px;
+  }
+
+  .app-support-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .app-support-hero {
+    padding: 48px 0;
+  }
+
+  .app-support-hero h1 {
+    font-size: 38px;
+  }
+
+  .app-support-section {
+    padding: 42px 0 64px;
+  }
+
+  .faq-item,
+  .app-support-aside {
+    padding: 24px 20px;
+  }
+
+  .app-support-aside {
+    position: static;
   }
 
   .privacy-article {
