@@ -150,6 +150,20 @@ p:last-child {
   color: var(--blue);
 }
 
+.migration-notice {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(22, 120, 220, 0.16);
+  color: #24415f;
+  background: #eef7ff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.migration-notice a {
+  color: #0b62bd;
+  font-weight: 800;
+}
+
 .eyebrow {
   margin-bottom: 12px;
   color: var(--blue);
